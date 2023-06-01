@@ -1,0 +1,115 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Raleway', sans-serif;
+
+}
+.section{
+   width: 100%;
+   
+   /* background-color: black; */
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   
+}
+.container{
+	overflow:hidden;
+	border-radius:4px;
+	margin-top:40px;
+   width: 50%;
+   display: flex;
+    background-image: url("../image/bag.jpg");
+   background-color: #cccccc;
+   height: 500px; 
+   background-position: center; 
+   background-repeat: no-repeat;
+   background-size: cover; 
+   box-shadow: 0px 0px 40px 14px gray;
+   position:relative;
+}
+.img{
+   width: 40%;
+   /* background-image: url("../image/bag.jpg"); */
+   /* background-color: #cccccc; */
+   /* height: 500px;  */
+   /* background-position: center;  */
+   /* background-repeat: no-repeat; */
+   /* background-size: cover;  */
+}
+.log{
+   width: 60%;
+   background-color: white;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding:10px 60px;
+   
+}
+.top{
+   width: 70%;
+height: 150px;
+display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ color: gray;
+}
+.top b{
+   color: black;
+}
+.fa-gear{
+	position:absolute;
+	margin:15px;
+	/* background-color:white; */
+	border-radius:50%;
+}
+.file{
+   width: 100%;
+ height: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ /* position: relative; */
+ /* padding-left: 40px; */
+}
+input{
+   font-size: 26px;
+   border: none;
+   border-bottom: 2px solid gray;
+}
+.pass{
+	display:flex;
+	gap:20px;
+}
+.mail{
+	display:flex;
+	gap:20px;
+	
+}
+
+.btn{
+   width: 100%;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   /* padding: 30px; */
+   align-items: end;
+}
+.btn a{
+   font-size: 15px;
+   width: fit-content;
+   text-decoration: none;
+   padding: 14px 24px;
+   border-radius: 25px;
+   color: white;
+   background-color: #B08BF5;
+}
+.btn h5{
+   cursor: pointer;
+   font-size: 12px;
+   color: gray;
+   text-decoration: underline;
+}
